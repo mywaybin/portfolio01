@@ -20,5 +20,12 @@ $(function () {
         $('.bottomBanner .inner').slideToggle('on');
     });
 
+    $('.main_pro_slide').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
 
 });
