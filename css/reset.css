@@ -18,6 +18,12 @@ ol {
     list-style: none;
 }
 
+address,
+em,
+i {
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
 }
